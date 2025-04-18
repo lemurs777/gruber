@@ -5553,8 +5553,8 @@ html :where(.is-position-sticky) {
     padding: 31px 0 38px 102px
   }
   .cards__items {
-    grid-template-columns: repeat(3,1fr);
-    gap: 353px 64px
+    grid-template-columns: repeat(3,1fr)!important;
+    gap: 353px 64px!important
   }
 }
 @media (min-width:93.75em) {
